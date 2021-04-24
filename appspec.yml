@@ -1,9 +1,9 @@
 version: 0.0 
 os: linux 
 files:
-  - source: helloworld.js
+  - source: /helloworld.js
     destination: /usr/local/helloworld/
-  - source: helloworld.service
+  - source: /helloworld.service
     destination: /etc/systemd/system/
 hooks: 
   BeforeInstall: 
