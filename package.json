@@ -1,0 +1,22 @@
+{
+  "name": "EffectiveDevOpswithAWS2E",
+  "version": "0.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cshyun7015/EffectiveDevOpswithAWS2E.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/cshyun7015/EffectiveDevOpswithAWS2E/issues"
+  },
+  "devDependencies": {
+    "mocha": "~2.5.3",
+    "zombie": "~3.0.15"
+  }
+}
