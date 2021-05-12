@@ -1,0 +1,20 @@
+{
+  "name": "EffectiveDevOpswithAWS2E",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "zombie": "^6.1.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.92.0",
+    "winston": "^2.4.4"
+  }
+}
