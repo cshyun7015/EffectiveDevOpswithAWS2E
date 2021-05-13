@@ -9,6 +9,8 @@ files:
     destination: /etc/logrotate.d/helloworld
   - source: node_modules
     destination: /usr/local/helloworld/node_modules
+  - source: amazon-cloudwatch-agent.json
+    destination: /opt/aws/amazon-cloudwatch-agent/etc/
 hooks:
   BeforeInstall:
     - location: scripts/stop.sh
