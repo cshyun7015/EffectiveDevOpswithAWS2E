@@ -12,7 +12,7 @@ var hostname = process.env.HOSTNAME
 
 var logger = new (winston.Logger)({
   transports: [new WFirehose({
-    'streamName': 'FirehoseLogs',
+    'streamName': 'ib07441-kinesis-firehose-delivery-stream',
     'firehoseOptions': {
       'region': 'ap-northeast-2'
     }
